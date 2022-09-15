@@ -1,13 +1,7 @@
 const router = require("express").Router();
 
-const createPublicRoutes = require("./public");
-const createMemberRoutes = require("./member");
-const createOwnerRoutes = require("./owner");
+const formsController = require("../../controllers/forms");
 
-
-
-createPublicRoutes(router);
-createMemberRoutes(router);
-createOwnerRoutes(router);
+router.get("/", formsController.getFormsController);
 
 module.exports = router;
