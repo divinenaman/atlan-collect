@@ -47,5 +47,5 @@ Below shows the shematic representation of question responses. There can be two 
 
 - Google Sheets
 
-Since we need to save the data on an organizations google account, we need to provide an API to convert the form data into a structure acceptable by the google sheets API. On the frontend, the user must be provided with an option to sign-in using oauth into there accounts. The respective API handler will send data in a specific format that will be used to create a spreadsheet using google's provided API.  
+Since we need to save the data on an organizations google account, we need to provide an API to convert the form data into a structure acceptable by the google sheets API. On the frontend, the user must be provided with an option to sign-in using oauth into there accounts. The respective API handler will send data in a specific format that will be used to create a spreadsheet using google's provided API (on the frontend).   
 
